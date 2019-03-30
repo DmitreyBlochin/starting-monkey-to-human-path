@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<organization name = "">
+    <department name = "">
+        <employee firstname = "" secondname = "">
+            <hiredate> </hiredate>
+            <salary> </salary>
+            <jobtitl value = ""/>
+        </employee>
+        <employee firstname = "" secondname = "">
+            <hiredate> </hiredate>
+            <salary> </salary>
+            <jobtitl value = ""/>
+        </employee>
+        <employee firstname = "" secondname = "">
+            <hiredate> </hiredate>
+            <salary> </salary>
+            <jobtitl value = ""/>
+        </employee>
+    </department>
+    <department name = "">
+        <employee firstname = "" secondname = "">
+            <hiredate> </hiredate>
+            <salary> </salary>
+            <jobtitl value = ""/>
+        </employee>
+        <employee firstname = "" secondname = "">
+            <hiredate> </hiredate>
+            <salary> </salary>
+            <jobtitl value = ""/>
+        </employee>
+        <employee firstname = "" secondname = "">
+            <hiredate> </hiredate>
+            <salary> </salary>
+            <jobtitl value = ""/>
+        </employee>
+    </department>
+</organization>
