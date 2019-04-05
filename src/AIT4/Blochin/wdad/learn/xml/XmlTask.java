@@ -67,7 +67,7 @@ public class XmlTask {
         return (sum/quantEmployees);
     }
 
-    public double salaryAverage(String departmentName){
+    public int salaryAverage(String departmentName){
         int sum = 0;
         int quantEmployees = 0;
         for (int i = 0; i < organization.size(); i++) {

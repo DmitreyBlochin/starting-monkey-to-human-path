@@ -1,37 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<organization name = "">
-    <department name = "">
+<organization name = "Corp">
+    <department name = "It1">
         <employee firstname = "jack" secondname = "jackson">
-            <hiredate> </hiredate>
-            <salary> </salary>
-            <jobtitl value = ""/>
+            <hiredate> 02.01.2013 </hiredate>
+            <salary> 500 </salary>
+            <jobtitle value = "manager"/>
         </employee>
-        <employee firstname = "jane" secondname = "janenin">
-            <hiredate>20</hiredate>
-            <salary>100</salary>
-            <jobtitl value = "junior"/>
+        <employee firstname = "jane" secondname = "jefferson">
+            <hiredate> 20.12.2013 </hiredate>
+            <salary> 100 </salary>
+            <jobtitle value = "assistant"/>
         </employee>
-        <employee firstname = "josh" secondname = "joshon">
-            <hiredate> </hiredate>
-            <salary> </salary>
-            <jobtitl value = ""/>
+        <employee firstname = "josh" secondname = "jordan">
+            <hiredate> 31.04.2019 </hiredate>
+            <salary> 400 </salary>
+            <jobtitle value = "engineer"/>
         </employee>
     </department>
-    <department name = "">
-        <employee firstname = "" secondname = "">
-            <hiredate> </hiredate>
-            <salary> </salary>
-            <jobtitl value = ""/>
+    <department name = "It2">
+        <employee firstname = "sam" secondname = "manson">
+            <hiredate> 12.02.2019 </hiredate>
+            <salary> 1000 </salary>
+            <jobtitle value = "engineer"/>
         </employee>
-        <employee firstname = "" secondname = "">
-            <hiredate> </hiredate>
-            <salary> </salary>
-            <jobtitl value = ""/>
+        <employee firstname = "randy" secondname = "richardson">
+            <hiredate> 08.07.2016 </hiredate>
+            <salary> 340 </salary>
+            <jobtitle value = "secretary"/>
         </employee>
-        <employee firstname = "" secondname = "">
-            <hiredate> </hiredate>
-            <salary> </salary>
-            <jobtitl value = ""/>
+        <employee firstname = "greg" secondname = "greys">
+            <hiredate> 28.07.2014 </hiredate>
+            <salary> 990 </salary>
+            <jobtitle value = "head"/>
         </employee>
     </department>
 </organization>
