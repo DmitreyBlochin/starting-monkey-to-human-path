@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <organization name = "">
     <department name = "">
-        <employee firstname = "" secondname = "">
+        <employee firstname = "jack" secondname = "jackson">
             <hiredate> </hiredate>
             <salary> </salary>
             <jobtitl value = ""/>
         </employee>
-        <employee firstname = "" secondname = "">
-            <hiredate> </hiredate>
-            <salary> </salary>
-            <jobtitl value = ""/>
+        <employee firstname = "jane" secondname = "janenin">
+            <hiredate>20</hiredate>
+            <salary>100</salary>
+            <jobtitl value = "junior"/>
         </employee>
-        <employee firstname = "" secondname = "">
+        <employee firstname = "josh" secondname = "joshon">
             <hiredate> </hiredate>
             <salary> </salary>
             <jobtitl value = ""/>
