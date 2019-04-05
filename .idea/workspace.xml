@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8a5b9d1f-9f1e-42d9-a43a-43eb94b38742" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/starting-monkey-to-human-path/AIT4/Blochin/wdad/learn/xml/TestXmlTask.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/starting-monkey-to-human-path/AIT4/Blochin/wdad/learn/xml/XmlTask.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/starting-monkey-to-human-path/AIT4/Blochin/wdad/learn/xml/organization.dtd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AIT4/Blochin/wdad/learn/xml/XmlTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AIT4/Blochin/wdad/learn/xml/organization.dtd" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AIT4/Blochin/wdad/learn.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/starting-monkey-to-human-path/AIT4/Blochin/wdad/learn/xml/organization.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -19,11 +14,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/AIT4/Blochin/wdad/learn/xml/XmlTask.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="51">
               <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/AIT4/Blochin/wdad/learn/xml/organization.dtd">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="18" column="78" selection-start-line="18" selection-start-column="78" selection-end-line="18" selection-end-column="78" />
             </state>
           </provider>
         </entry>
@@ -49,8 +53,8 @@
         <option value="$PROJECT_DIR$/src/AIT4/Blochin/wdad/learn/xml/xmlDoc.dtd" />
         <option value="$PROJECT_DIR$/src/AIT4/Blochin/wdad/learn/xml/organization.xml" />
         <option value="$PROJECT_DIR$/src/AIT4/Blochin/wdad/learn/xml/TestXmlTask.java" />
-        <option value="$PROJECT_DIR$/src/AIT4/Blochin/wdad/learn/xml/organization.dtd" />
         <option value="$PROJECT_DIR$/src/AIT4/Blochin/wdad/learn/xml/XmlTask.java" />
+        <option value="$PROJECT_DIR$/src/AIT4/Blochin/wdad/learn/xml/organization.dtd" />
       </list>
     </option>
   </component>
@@ -107,7 +111,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554503714382" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554503890439" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -244,17 +248,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/AIT4/Blochin/wdad/learn/xml/organization.dtd">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/AIT4/Blochin/wdad/learn/xml/XmlTask.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
           <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AIT4/Blochin/wdad/learn/xml/organization.dtd">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="78" selection-start-line="18" selection-start-column="78" selection-end-line="18" selection-end-column="78" />
         </state>
       </provider>
     </entry>
