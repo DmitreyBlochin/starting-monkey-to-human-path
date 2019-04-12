@@ -11,6 +11,6 @@
             <policypath>admin.policy</policypath>
             <usecodebaseonly>yes</usecodebaseonly>
         </client>
-        <classprovider>http://172.0.0.1</classprovider>
+        <classprovider>http://www.yourhost.free.ru/cp/cp.jar</classprovider>
     </rmi>
 </appconfig>
