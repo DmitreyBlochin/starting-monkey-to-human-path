@@ -3,14 +3,14 @@
         <server>
             <registry>
                 <createregistry>no</createregistry>
-                <registryaddress>webhost</registryaddress>
-                <registryport>6666</registryport>
+                <registryaddress>172.0.0.1</registryaddress>
+                <registryport>2020</registryport>
             </registry>
         </server>
         <client>
             <policypath>admin.policy</policypath>
             <usecodebaseonly>yes</usecodebaseonly>
         </client>
-        <classprovider>http://172.0.0.1</classprovider>
+        <classprovider>http://www.randomhost.com</classprovider>
     </rmi>
 </appconfig>
