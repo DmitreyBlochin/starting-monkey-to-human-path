@@ -39,8 +39,6 @@ public class PreferencesManager {
         }
     }
 
-
-
     private PreferencesManager() { }
 
     public static PreferencesManager getInstance() {
@@ -51,6 +49,16 @@ public class PreferencesManager {
         return doc;
     }
 
+
+    public void setProperty(String key, String value){}
+    public String getProperty(String key){}
+    public void setProperties(Properties prop){}
+    public Properties getProperties(){}
+    public void addBindedObject(String name, String className){}
+    public void removeBindedObject(String name){}
+
+
+    @Deprecated
     public void setCreateregistry(String newValue) {
         Node elem = doc.getElementsByTagName("createregistry").item(0).getFirstChild();
         elem.setNodeValue(newValue);
@@ -68,11 +76,13 @@ public class PreferencesManager {
         System.out.println("Изменения сохранены");
     }
 
+    @Deprecated
     public String getCreateregistry(){
         Node elem = doc.getElementsByTagName("createregistry").item(0).getFirstChild();
         return elem.getNodeValue();
     }
 
+    @Deprecated
     public void setRegistryaddress(String newValue) {
         Node elem = doc.getElementsByTagName("registryaddress").item(0).getFirstChild();
         elem.setNodeValue(newValue);
@@ -90,11 +100,13 @@ public class PreferencesManager {
         System.out.println("Изменения сохранены");
     }
 
+    @Deprecated
     public String getRegistryaddress(){
         Node elem = doc.getElementsByTagName("registryaddress").item(0).getFirstChild();
         return elem.getNodeValue();
     }
 
+    @Deprecated
     public void setRegistryport(String newValue) {
         Node elem = doc.getElementsByTagName("registryport").item(0).getFirstChild();
         elem.setNodeValue(newValue);
@@ -112,11 +124,13 @@ public class PreferencesManager {
         System.out.println("Изменения сохранены");
     }
 
+    @Deprecated
     public String getRegistryport(){
         Node elem = doc.getElementsByTagName("registryport").item(0).getFirstChild();
         return elem.getNodeValue();
     }
 
+    @Deprecated
     public void setPolicypath(String newValue) {
         Node elem = doc.getElementsByTagName("policypath").item(0).getFirstChild();
         elem.setNodeValue(newValue);
@@ -134,11 +148,13 @@ public class PreferencesManager {
         System.out.println("Изменения сохранены");
     }
 
+    @Deprecated
     public String getPolicypath(){
         Node elem = doc.getElementsByTagName("policypath").item(0).getFirstChild();
         return elem.getNodeValue();
     }
 
+    @Deprecated
     public void setUsecodebaseonly(String newValue) {
         Node elem = doc.getElementsByTagName("usecodebaseonly").item(0).getFirstChild();
         elem.setNodeValue(newValue);
@@ -156,11 +172,13 @@ public class PreferencesManager {
         System.out.println("Изменения сохранены");
     }
 
+    @Deprecated
     public String getUsecodebaseonly(){
         Node elem = doc.getElementsByTagName("usecodebaseonly").item(0).getFirstChild();
         return elem.getNodeValue();
     }
 
+    @Deprecated
     public void setClassprovider(String newValue) {
         Node elem = doc.getElementsByTagName("classprovider").item(0).getFirstChild();
         elem.setNodeValue(newValue);
@@ -178,6 +196,7 @@ public class PreferencesManager {
         System.out.println("Изменения сохранены");
     }
 
+    @Deprecated
     public String getClassprovider(){
         Node elem = doc.getElementsByTagName("classprovider").item(0).getFirstChild();
         return elem.getNodeValue();
