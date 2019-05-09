@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><appconfig>
+    <rmi>
+        <server>
+            <registry>
+                <createregistry>no</createregistry>
+                <registryaddress>webhost</registryaddress>
+                <registryport>6666</registryport>
+            </registry>
+        </server>
+        <client>
+            <policypath>admin.policy</policypath>
+            <usecodebaseonly>yes</usecodebaseonly>
+        </client>
+        <classprovider>http://172.0.0.1</classprovider>
+    </rmi>
+</appconfig>
