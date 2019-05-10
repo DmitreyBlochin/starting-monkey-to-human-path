@@ -51,9 +51,9 @@ public class PreferencesManager {
 
 
     public void setProperty(String key, String value){}
-    public String getProperty(String key){}
-    public void setProperties(Properties prop){}
-    public Properties getProperties(){}
+    //public String getProperty(String key){}
+    //public void setProperties(Properties prop){}
+    //public Properties getProperties(){}
     public void addBindedObject(String name, String className){}
     public void removeBindedObject(String name){}
 
