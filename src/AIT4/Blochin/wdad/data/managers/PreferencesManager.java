@@ -1,5 +1,6 @@
 package AIT4.Blochin.wdad.data.managers;
 
+import AIT4.Blochin.wdad.utils.PreferencesManagerConstants;
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;
 import org.w3c.dom.Node;
@@ -23,6 +24,7 @@ public class PreferencesManager {
     private static PreferencesManager ourInstance = new PreferencesManager();
     private Document doc;
     private String filepath = "src/AIT4/Blochin/wdad/resources/configuration/appconfig.xml";
+    private String className;
 
     {
         DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
@@ -49,6 +51,13 @@ public class PreferencesManager {
         return doc;
     }
 
+    public String getClassName() {
+        return className;
+    }
+
+    public void setClassName(String className) {
+        this.className = className;
+    }
 
     public void setProperty(String key, String value){
         String[] subStr = key.split("\\.");
@@ -147,6 +156,7 @@ public class PreferencesManager {
         } catch (TransformerException e) {
             e.printStackTrace();
         }
+        this.className = className;
         System.out.println("Изменения сохранены");
     }
 
@@ -159,7 +169,7 @@ public class PreferencesManager {
             if (nextNode.getNodeName().equals(name)) {
             server.removeChild(nextNode); }
         }
-
+            this.className = "";
     }
 
 
