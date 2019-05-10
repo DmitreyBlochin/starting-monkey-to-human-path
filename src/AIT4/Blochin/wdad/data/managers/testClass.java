@@ -1,5 +1,6 @@
 package AIT4.Blochin.wdad.data.managers;
 
+import AIT4.Blochin.wdad.utils.PreferencesManagerConstants;
 import org.w3c.dom.NodeList;
 
 public class testClass {
@@ -8,29 +9,34 @@ public class testClass {
 
         PreferencesManager pm = PreferencesManager.getInstance();
 
-        System.out.println(pm.getCreateregistry());
-        pm.setCreateregistry("no");
-        System.out.println(pm.getCreateregistry());
+        System.out.println(pm.getProperty(PreferencesManagerConstants.createRegistry));
+        pm.setProperty(PreferencesManagerConstants.createRegistry,"yes");
+        System.out.println(pm.getProperty(PreferencesManagerConstants.createRegistry));
 
-        System.out.println(pm.getRegistryaddress());
-        pm.setRegistryaddress("172.0.0.1");
-        System.out.println(pm.getRegistryaddress());
+        System.out.println();
 
-        System.out.println(pm.getRegistryport());
-        pm.setRegistryport("2020");
-        System.out.println(pm.getRegistryport());
+        System.out.println(pm.getProperty(PreferencesManagerConstants.registryAddress));
+        pm.setProperty(PreferencesManagerConstants.registryAddress,"127.0.0.0");
+        System.out.println(pm.getProperty(PreferencesManagerConstants.registryAddress));
 
-        System.out.println(pm.getPolicypath());
-        pm.setPolicypath("admin.policy");
-        System.out.println(pm.getPolicypath());
+        System.out.println();
 
-        System.out.println(pm.getUsecodebaseonly());
-        pm.setUsecodebaseonly("yes");
-        System.out.println(pm.getUsecodebaseonly());
+        Properties prop = new Properties("no","225.225.0.0","2099","user.policy","no","http://www.myhost.com");
+        pm.setProperties(prop);
+        Properties pr = pm.getProperties();
+        System.out.println(pr.getCreateRegistry());
+        System.out.println(pr.getRegistryAddress());
+        System.out.println(pr.getRegistryPort());
+        System.out.println(pr.getPolicyPath());
+        System.out.println(pr.getUseCodeBaseOnly());
+        System.out.println(pr.getClassProvider());
 
-        System.out.println(pm.getClassprovider());
-        pm.setClassprovider("http://www.randomhost.com");
-        System.out.println(pm.getClassprovider());
+        pm.addBindedObject("XmlDataManager","src/AIT4/Blochin/wdad/learn/rmi/XmlDataManager.java");
+
+        System.out.println();
+
+        pm.removeBindedObject("name");
+
 
 
     }
