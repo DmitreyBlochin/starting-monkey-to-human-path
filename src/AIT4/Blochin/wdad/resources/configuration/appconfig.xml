@@ -3,14 +3,14 @@
         <server>
             <registry>
                 <createregistry>no</createregistry>
-                <registryaddress>172.0.0.1</registryaddress>
-                <registryport>2020</registryport>
+                <registryaddress>225.225.0.0</registryaddress>
+                <registryport>2099</registryport>
             </registry>
-        </server>
+        <bindeobject><name>XmlDataManager</name><class>src/AIT4/Blochin/wdad/learn/rmi/XmlDataManager.java</class></bindeobject></server>
         <client>
-            <policypath>admin.policy</policypath>
-            <usecodebaseonly>yes</usecodebaseonly>
+            <policypath>user.policy</policypath>
+            <usecodebaseonly>no</usecodebaseonly>
         </client>
-        <classprovider>http://www.randomhost.com</classprovider>
+        <classprovider>http://www.myhost.com</classprovider>
     </rmi>
 </appconfig>
