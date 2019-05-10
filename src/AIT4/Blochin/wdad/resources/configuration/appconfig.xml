@@ -6,7 +6,7 @@
                 <registryaddress>127.0.0.1</registryaddress>
                 <registryport>2099</registryport>
             </registry>
-        </server>
+        <bindeobject><name>XmlDataManager</name><class>src/AIT4/Blochin/wdad/learn/rmi/XmlDataManager</class></bindeobject><bindeobject><name>XmlDataManager</name><class>src/AIT4/Blochin/wdad/learn/rmi/XmlDataManager</class></bindeobject><bindeobject><name>XmlDataManager</name><class>src/AIT4/Blochin/wdad/learn/rmi/XmlDataManager</class></bindeobject></server>
         <client>
             <policypath>user.policy</policypath>
             <usecodebaseonly>no</usecodebaseonly>

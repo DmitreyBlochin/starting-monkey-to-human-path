@@ -1,8 +1,9 @@
 package AIT4.Blochin.wdad.learn.xml;
 
+import java.io.Serializable;
 import java.util.ArrayList;
 
-public class Department {
+public class Department implements Serializable {
     private ArrayList<Employee> emplsList;
     private String name;
 

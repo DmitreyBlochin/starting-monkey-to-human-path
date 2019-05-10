@@ -24,14 +24,11 @@ public class Server {
         }
 
         //Добавление в конфигурационный файл информацию по добавленному объекту
-        pm.addBindedObject("XmlDataManager","src/AIT4/Blochin/wdad/learn/rmi/XmlDataManager.java");
+        pm.addBindedObject("XmlDataManager","src/AIT4/Blochin/wdad/learn/rmi/XmlDataManager");
 
         System.out.println("Server is running ...");
 
 
-
-
-        //System.setProperty("java.rmi.server.hostname", "127.0.0.1");
 
     }
 

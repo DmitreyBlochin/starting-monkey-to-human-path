@@ -24,7 +24,6 @@ public class PreferencesManager {
     private static PreferencesManager ourInstance = new PreferencesManager();
     private Document doc;
     private String filepath = "src/AIT4/Blochin/wdad/resources/configuration/appconfig.xml";
-    private String className;
 
     {
         DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
@@ -49,14 +48,6 @@ public class PreferencesManager {
 
     public Document getDoc() {
         return doc;
-    }
-
-    public String getClassName() {
-        return className;
-    }
-
-    public void setClassName(String className) {
-        this.className = className;
     }
 
     public void setProperty(String key, String value){
@@ -156,7 +147,6 @@ public class PreferencesManager {
         } catch (TransformerException e) {
             e.printStackTrace();
         }
-        this.className = className;
         System.out.println("Изменения сохранены");
     }
 
@@ -169,9 +159,12 @@ public class PreferencesManager {
             if (nextNode.getNodeName().equals(name)) {
             server.removeChild(nextNode); }
         }
-            this.className = "";
     }
 
+    public String getClassName(){
+        Node elem = doc.getElementsByTagName("name").item(0).getFirstChild();
+        return elem.getNodeValue();
+    }
 
 
 
