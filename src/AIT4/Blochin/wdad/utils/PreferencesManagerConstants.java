@@ -8,5 +8,12 @@ public interface PreferencesManagerConstants {
     String policyPath = "appconfig.rmi.client.policypath";
     String useCodeBaseOnly = "appconfig.rmi.client.usecodebaseonly";
     String classProvider = "appconfig.rmi.classprovider";
+    String className = "appconfig.datasource.classname";
+    String driverType = "appconfig.datasource.drivertype";
+    String hostName = "appconfig.datasource.hostName";
+    String port = "appconfig.datasource.port";
+    String DBName = "appconfig.datasource.DBName";
+    String user = "appconfig.datasource.user";
+    String pass = "appconfig.datasource.pass";
 
 }

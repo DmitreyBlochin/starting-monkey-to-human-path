@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?><appconfig>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<appconfig>
     <rmi>
         <server>
             <registry>
@@ -6,11 +7,24 @@
                 <registryaddress>225.225.0.0</registryaddress>
                 <registryport>2099</registryport>
             </registry>
-        <bindeobject><name>XmlDataManager</name><class>src/AIT4/Blochin/wdad/learn/rmi/XmlDataManager.java</class></bindeobject></server>
+        <bindeobject>
+            <name>XmlDataManager</name>
+            <class>src/AIT4/Blochin/wdad/learn/rmi/XmlDataManager.java</class>
+        </bindeobject>
+        </server>
         <client>
             <policypath>user.policy</policypath>
             <usecodebaseonly>no</usecodebaseonly>
         </client>
         <classprovider>http://www.myhost.com</classprovider>
     </rmi>
+    <datasource>
+        <classname>com.mysql.jdbc.Driver</classname>
+        <drivertype>jdbc:mysql</drivertype>
+        <hostName>localhost</hostName>
+        <port>3306</port>
+        <DBName>organization</DBName>
+        <user>root</user>
+        <pass>dcogito0299www</pass>
+    </datasource>
 </appconfig>
