@@ -1,0 +1,6 @@
+use organiztion;
+create table jobtitles(id int NOT NULL PRIMARY KEY AUTO_INCREMENT, name varchar(100));
+create table departments(id int NOT NULL PRIMARY KEY AUTO_INCREMENT, name varchar(50),description varchar(200));
+create table employees(id int NOT NULL PRIMARY KEY AUTO_INCREMENT, first_name varchar(50), second_name varchar(50),
+birth_date date, hire_date date, salsry numeric(15,5), jobtitles_id int(10), departments_id int(10),
+FOREIGN KEY (jobtitles_id) REFERENCES jobtitles (id), FOREIGN KEY (departments_id) REFERENCES departments (id));
