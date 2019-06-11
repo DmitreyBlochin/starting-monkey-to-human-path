@@ -62,8 +62,7 @@ public class Properties {
         this.useCodeBaseOnly = useCodeBaseOnly;
     }
 
-    public void setClassProvider(String classProvider) {
-        this.classProvider = classProvider;
-    }
+    public void setClassProvider(String classProvider) { this.classProvider = classProvider; }
+
 }
 
