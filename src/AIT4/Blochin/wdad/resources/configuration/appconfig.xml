@@ -19,7 +19,7 @@
         <classprovider>http://www.myhost.com</classprovider>
     </rmi>
     <datasource>
-        <classname>com.mysql.jdbc.Driver</classname>
+        <classname>com.mysql.cj.jdbc.Driver</classname>
         <drivertype>jdbc:mysql</drivertype>
         <hostName>localhost</hostName>
         <port>3306</port>
