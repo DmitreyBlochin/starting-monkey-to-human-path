@@ -11,12 +11,29 @@ import javax.xml.parsers.DocumentBuilderFactory;
 import javax.xml.parsers.ParserConfigurationException;
 import java.io.File;
 import java.io.IOException;
+import java.io.Serializable;
 import java.util.ArrayList;
 
-public class XmlTask {
+public class XmlTask implements Serializable {
+
+    public void setOrganization(ArrayList<Department> organization) {
+        this.organization = organization;
+    }
+
+    public void setDoc(Document doc) {
+        this.doc = doc;
+    }
 
     ArrayList<Department> organization = new ArrayList<Department>();
     Document doc;
+
+    public ArrayList<Department> getOrganization() {
+        return organization;
+    }
+
+    public Document getDoc() {
+        return doc;
+    }
 
     public XmlTask(String path) {
         DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();

@@ -1,6 +1,8 @@
 package AIT4.Blochin.wdad.learn.xml;
 
-public class Employee {
+import java.io.Serializable;
+
+public class Employee implements Serializable {
 
     private String firstname;
     private String secondname;

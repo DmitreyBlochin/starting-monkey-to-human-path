@@ -4,14 +4,18 @@
         <server>
             <registry>
                 <createregistry>no</createregistry>
-                <registryaddress>225.225.0.0</registryaddress>
+                <registryaddress>127.0.0.1</registryaddress>
                 <registryport>2099</registryport>
             </registry>
+<<<<<<< HEAD
         <bindeobject>
             <name>XmlDataManager</name>
             <class>src/AIT4/Blochin/wdad/learn/rmi/XmlDataManager.java</class>
         </bindeobject>
         </server>
+=======
+        <bindeobject><name>XmlDataManager</name><class>src/AIT4/Blochin/wdad/learn/rmi/XmlDataManager</class></bindeobject><bindeobject><name>XmlDataManager</name><class>src/AIT4/Blochin/wdad/learn/rmi/XmlDataManager</class></bindeobject><bindeobject><name>XmlDataManager</name><class>src/AIT4/Blochin/wdad/learn/rmi/XmlDataManager</class></bindeobject></server>
+>>>>>>> a22bb702c6c0dd86ca5bdb1a5fc64db02403d665
         <client>
             <policypath>user.policy</policypath>
             <usecodebaseonly>no</usecodebaseonly>

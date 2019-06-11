@@ -1,5 +1,6 @@
 package AIT4.Blochin.wdad.data.managers;
 
+import AIT4.Blochin.wdad.utils.PreferencesManagerConstants;
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;
 import org.w3c.dom.Node;
@@ -48,7 +49,6 @@ public class PreferencesManager {
     public Document getDoc() {
         return doc;
     }
-
 
     public void setProperty(String key, String value){
         String[] subStr = key.split("\\.");
@@ -159,9 +159,12 @@ public class PreferencesManager {
             if (nextNode.getNodeName().equals(name)) {
             server.removeChild(nextNode); }
         }
-
     }
 
+    public String getClassName(){
+        Node elem = doc.getElementsByTagName("name").item(0).getFirstChild();
+        return elem.getNodeValue();
+    }
 
 
 
