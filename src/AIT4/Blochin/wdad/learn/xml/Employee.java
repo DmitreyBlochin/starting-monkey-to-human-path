@@ -4,16 +4,20 @@ public class Employee {
 
     private String firstname;
     private String secondname;
+    private String birthdate;
     private String hiredate;
     private int salary;
     private String jobtitle;
+    private int noDepart;
 
-    public Employee(String firstname, String secondname, String hiredate, int salary, String jobtitle) {
+    public Employee(String firstname, String secondname, String hiredate, String birthdate, int salary, String jobtitle, int noDepart) {
         this.firstname = firstname;
         this.secondname = secondname;
+        this.birthdate = birthdate;
         this.hiredate = hiredate;
         this.salary = salary;
         this.jobtitle = jobtitle;
+        this.noDepart = noDepart;
     }
 
     public String getFirstname() {
@@ -54,5 +58,21 @@ public class Employee {
 
     public void setJobtitle(String jobtitle) {
         this.jobtitle = jobtitle;
+    }
+
+    public int getNoDepart() {
+        return noDepart;
+    }
+
+    public void setNoDepart(int noDepart) {
+        this.noDepart = noDepart;
+    }
+
+    public String getBirthdate() {
+        return birthdate;
+    }
+
+    public void setBirthdate(String birthdate) {
+        this.birthdate = birthdate;
     }
 }
